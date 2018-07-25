@@ -22,7 +22,6 @@ public class SingerController {
 
     @RequestMapping(value = "/listar", method = RequestMethod.GET )
     public List<Singer> listar(){
-        //Thread.sleep(10000);
         return singerSingerDao.listar();
     }
 
